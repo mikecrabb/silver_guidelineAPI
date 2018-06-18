@@ -8,7 +8,7 @@ All routes are GET, there is no option to PUT, DELETE, or UDPATE information in 
 Route | Route Example | Route Description
 ------|-------|----
 **/** | / | Used to check API is active. Should return **Welcome to the Silver Prototype API**
-**/successCriteria/*[criteriaID]* ** | /successCriteria/1.1.1 | Returns an individual Success Criteria
+**/successCriteria/*[criteriaID]*** | /successCriteria/1.1.1 | Returns an individual Success Criteria
 **/exceptions/*[criteriaID]*** | /exceptions/1.1.1 | Returns all exceptions for a given successCriteriaID
 **/additionalInformation/*[criteriaID]*** | additionalInformation/1.1.1 | returns all additional information for a given successCriteriaID
 **/benefits/*[criteriaID]*** | benefits/1.1.1 | returns a list of benefits associated with a given successCriteria
