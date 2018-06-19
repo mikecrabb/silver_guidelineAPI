@@ -6,8 +6,7 @@ This API has been created based on backward engineering the current WGAG guideli
 
 A demo version of the API is available at http://35.178.161.137/ which can be used for light testing (running on AWS).
 
-![Site is Live](https://img.shields.io/badge/demo status-its alive!!-green.svg?longCache=true&style=for-the-badge
-)
+Current status of demo: ![Site is Live](https://img.shields.io/badge/its-alive-green.svg?longCache=true&style=for-the-badge)
 
 
 
