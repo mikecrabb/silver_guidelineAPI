@@ -1,6 +1,15 @@
 # Silver Guidelines Applications
 
-This API has been created based on backward engineering the current WGAG guidelines. This can be used to generate prototype applications for displaying accessibility information going forward in Silver Development
+This API has been created based on backward engineering the current WGAG guidelines. This can be used to generate prototype applications for displaying accessibility information going forward in Silver Development.
+
+## Demo Version of API
+
+A demo version of the API is available at http://35.178.161.137/ which can be used for light testing (running on AWS).
+
+![Site is Live](https://img.shields.io/badge/demo status-its alive!!-green.svg?longCache=true&style=for-the-badge
+)
+
+
 
 ## Available Routes
 All routes are GET, there is no option to PUT, DELETE, or UDPATE information in this API. All API information is returned in JSON array.
