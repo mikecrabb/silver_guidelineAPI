@@ -16,5 +16,13 @@ Route | Route Example | Route Description
 **/failures/*[criteriaID]*** | /failures/1.1.1 | returns all failures attached to a given successCriteriaID
 **/failureExamples/*[failureID]*** | /failureExamples/F3 | returns all failure examples attached to a given failureID
 **/passingTechnique** | /passingTechnique | returns a list of all passing techniques
+**/passingTechnique/*[techniqueID]*** | /passingTechnique/ARIA6 | returns a single passingTechnique
+**/technology** | /technology | returns list of all technology
+**/technology/*[technologyID]*** | /technology/3 | returns a single technology
+**/passingTest/*[techniqueID]*** | /passingTest/ARIA3 | returns tests that can be used to test a given technique
+**/passingTechniqueExamples/*[techniqueID]*** | /passingTechniqueExample/ARIA6 | returns list of examples for given technique
+**/criteriaPassingTechniques/*[criteriaID]*** | criteriaPassingTechniques/1.1.1 | returns IDs for all passingTechniques for a given criteria
+
 
 ## Routes Still to Make
+- [ ] Please add as necessary

@@ -19,6 +19,18 @@ $rules = array(
     'passingTechnique-all' => "/passingTechniques",
     'passingTechnique-individual' => "/passingTechnique/(?'criteriaID'[\w\-\.]+)",
 
+    'technology-all' => "/technology",
+    'technology-individual' => "/technology/(?'criteriaID'[\w\-\.]+)",
+
+    'passingTest-individual' => "/passingTest/(?'criteriaID'[\w\-\.]+)",
+
+    'passingTechniqueExamples-all' => "/passingTechniqueExample/(?'criteriaID'[\w\-\.]+)",
+
+    'criteriaPassingTechniques' => "/criteriaPassingTechniques/(?'criteriaID'[\w\-\.]+)",
+
+
+    // EXAMPLE IMPLEMENTATION pages
+    // todo get moved to a different repo after testing
     'exampleImplementation/allSuccessCriteria' => "/example/allSuccessCriteria",
     'exampleImplementation/singleSuccess' => "/example/singleSuccess",
 
